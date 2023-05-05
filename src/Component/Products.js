@@ -89,6 +89,7 @@ export default function Products() {
           {filter.map((product) => {
               return (
                 <div className="col-md-3">
+                  <Link className="linkCard" to={`/productpage/${product.id}`}>
                   <div class="card h-100 text-center p-4" key={product.id}>
                     <img
                       src={product.image}
@@ -108,6 +109,7 @@ export default function Products() {
                       </Link>
                     </div>
                   </div>
+                  </Link>
                 </div>
               );
             })}
