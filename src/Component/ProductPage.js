@@ -12,6 +12,7 @@ export default function ProductPage() {
   const dispatch = useDispatch();
   const addProduct = (product)=>{
     dispatch(addToCart(product))
+    alert('Order Placed Successfully')
   }
 
   useEffect(() => {
