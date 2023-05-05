@@ -88,7 +88,7 @@ export default function Cart() {
               : ${total}
             </h3>
 
-            <button className="btn btn-dark">Place Order </button>
+           <button className="btn btn-dark" onClick={()=>{alert('Order Placed Successfully')}}>Place Order </button>
           </div>
         )}
       </div>
