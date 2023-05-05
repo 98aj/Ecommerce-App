@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.392);
+}
+
+.buttons, .loading{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.checkOut{
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.row{
+  margin:20px;
+ 
+}
+.cart{
+  margin-top: 100px;
+}
+h1 {
+  text-align: center
+}
+.description{
+  margin-left: 50px;
+  
+}
+
+.productpage{
+  margin-top: 100px;
+}
+
+.form-control{
+  width: 40%;
+  
+}
+
+.form{
+  align-items: center;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
